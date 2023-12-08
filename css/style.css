@@ -5,12 +5,12 @@
 
 @font-face {
     font-family: 'Gilroy';
-    src: url("/fonts/Gilroy-Semibold.ttf");
+    src: url("../fonts/Gilroy-Semibold.ttf");
 }
 
 @font-face {
     font-family: 'Merriweather';
-    src: url("/fonts/Merriweather-Black.ttf");
+    src: url("../fonts/Merriweather-Black.ttf");
 }
 
 body{
@@ -29,7 +29,7 @@ body{
     height: 62px;
     border-radius: 8px;
     background: linear-gradient(96deg, #DA8023 0%, #E2B438 100%);
-    padding: 19px 50;
+    padding: 20px;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -47,7 +47,7 @@ body{
 }
 
 .main{
-    background-image: url("/images/main-bg.png");
+    background-image: url("../images/main-bg.png");
     background-position: top center;
     overflow: hidden;
 }
@@ -146,4 +146,43 @@ body{
     position: absolute;
     top: -123px;
     left: calc(100% - 991px);
+}
+
+.why{
+    background-image: url("../images//why-bg.png");
+    background-position: top center;
+    background-size: initial;
+    padding-bottom: 180px;
+}
+
+.why-title{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 64px;
+    line-height: 80px;
+    letter-spacing: 1.92px;
+}
+
+.why-items{
+    margin-top: 60px;
+    display: grid;
+    gap: 100px;
+    grid-template-columns: repeat(3, 312px);
+    justify-content: center;
+}
+
+.why-item{
+    text-align: center;
+}
+
+.why-item-title{
+    font-size: 24px;
+    line-height: 29px;
+    padding: 24px 0;
+}
+
+.why-item-text{
+    font-size: 16px;
+    line-height: 160%;
 }
