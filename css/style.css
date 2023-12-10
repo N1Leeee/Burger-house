@@ -105,15 +105,16 @@ body{
 
 .currency{
     border: 1px solid white;
-    padding: 11px;
+    padding: 12px 0px 11px 0px;
     box-sizing: border-box;
     border-radius: 5px;
     width: 45px;
     height: 45px;
     text-align: center;
+    justify-content: center;
     cursor: pointer;
     margin-left: auto;
-    font-size: 18px;
+    font-size: 17px;
     user-select: none;
 }
 
